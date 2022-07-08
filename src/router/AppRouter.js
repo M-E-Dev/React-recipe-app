@@ -1,11 +1,12 @@
+import React from "react";
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
-import Login from "../components/login/Login";
-import Home from "../components/home/Home";
+import Login from "../pages/login/Login";
+import Home from "../pages/home/Home";
 import Details from "../components/details/Details";
 import Footer from "../components/footer/Footer";
-import About from "../components/about/About";
+import About from "../pages/about/About";
 import PrivateRouter from "./PrivateRouter";
 
 function AppRouter() {
