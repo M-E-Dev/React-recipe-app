@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <Logo to="/home" >
+      <Logo onClick={() => setOpen(!isOpen)} to="/home" >
         <i>{"<Recipe>"}</i>
         <span>app</span>
       </Logo>
