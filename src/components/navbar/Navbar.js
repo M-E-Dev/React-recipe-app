@@ -16,6 +16,7 @@ const Navbar = () => {
         <span></span>
         <span></span>
         <span></span>
+        <span></span>
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
