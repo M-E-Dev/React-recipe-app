@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import { Nav, Logo, Hamburger, Menu, MenuLink } from './style'
+// import {GiHamburgerMenu} from "react-icons/gi"
 
 const Navbar = () => {
 
@@ -8,7 +9,7 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <Logo onClick={() => setOpen(!isOpen)} to="/home" >
+      <Logo to="/home" >
         <i>{"<Recipe>"}</i>
         <span>app</span>
       </Logo>
@@ -16,7 +17,7 @@ const Navbar = () => {
         <span></span>
         <span></span>
         <span></span>
-        <span></span>
+        {/* <GiHamburgerMenu/> */}
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
