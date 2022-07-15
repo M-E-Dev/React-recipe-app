@@ -5,7 +5,7 @@ export const HeaderContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #00adb5;
+  background: pink;
 `;
 
 export const MainHeader = styled.h2`
