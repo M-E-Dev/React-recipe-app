@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Header from "../../components/header/Header";
+import { MainContainer, HomeImg, ImgDiv, RecipeCard } from "./style";
+import homeSvg from "../../assets/home.svg";
+
 
 const APP_ID = "4e9f05eb";
 const APP_KEY = "9b904d703fa0d46a88ce1ac63f29f498";
@@ -19,7 +22,7 @@ const Home = () => {
     if (query) {
       const result = await axios.get(url);
       setFood(result.data.hits);
-      console.log(result.data.hits);
+      // console.log(result.data.hits);
     } else {
       console.log("Fill the form...");
     }
@@ -33,6 +36,17 @@ const Home = () => {
         mealTypes={mealTypes}
         setMeal={setMeal}
       />
+      {food ? (
+        <MainContainer>
+          <RecipeCard>
+            <h1>veri var</h1>
+          </RecipeCard>
+        </MainContainer>
+      ) : (
+        <ImgDiv>
+          <HomeImg src={homeSvg}/>
+        </ImgDiv>
+      )}
     </div>
   );
 };
