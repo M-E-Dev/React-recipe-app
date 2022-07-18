@@ -43,7 +43,7 @@ export const MenuLink = styled(Link)`
   }
 
   @media (max-width: 768px) {
-    background-color: #e1f1dd;
+    background: rgba(205, 209, 228, 0.5);
     border: 1px solid #00adb5;
     border-radius: 10px;
     width: 100%;

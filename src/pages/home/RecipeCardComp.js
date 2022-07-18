@@ -8,6 +8,7 @@ const RecipeCardComp = ({recipe, index}) => {
   // Linkte veri gönderme sıkıntı olduğu için navigasyonu bu şekilde yaptık...
   const moreClick = () => {
     navigate("/details", {state:{recipe}})
+    // useNavigate ile gönderilen veri, ilgili sayfada useLocation ile alınır
   }
 
   return (

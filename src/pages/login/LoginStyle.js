@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const LoginContainer = styled.div`
-  background-image: url("https://picsum.photos/1600/900");
+  background-image: url("https://i.picsum.photos/id/365/5616/3744.jpg?hmac=m9Chefr19BelgN9G4ErJVFBbdvNmA_xlbd0CjATLwhM");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
@@ -12,12 +12,11 @@ export const LoginContainer = styled.div`
 `;
 
 export const FormContainer = styled.div`
-  width: 600px;
-  min-width: 600px;
-  height: 600px;
-  background-color: rgba(0, 173, 181, 0.5);
-  border-radius: 50%;
-  border: 2px solid #e1f1dd;
+  width: 500px;
+  min-width: 500px;
+  height: 500px;
+  background-color: rgba(205, 209, 228, 0.5); 
+  border-radius: 3%;
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -26,7 +25,7 @@ export const FormContainer = styled.div`
 `;
 
 export const Header = styled.h1`
-  color: white;
+  color: rgb(175, 65, 84);
   font-family: "Girassol", sans-serif;
   font-size: 3rem;
 `;
@@ -52,9 +51,10 @@ export const StyledForm = styled.form`
 export const StyledButton = styled.button`
   font-size: 2rem;
   font-family: "Girassol", sans-serif;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
-  border: none;
+  border-radius: 5px;
+  padding: 5px;
   cursor: pointer;
   margin: 1rem;
 `;

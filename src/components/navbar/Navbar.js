@@ -13,16 +13,16 @@ const Navbar = () => {
         <i>{"<Recipe>"}</i>
         <span>app</span>
       </Logo>
-      <Hamburger onClick={() => setOpen(!isOpen)}>
+      <Hamburger onClick={() => setOpen(!isOpen)} >
         <span></span>
         <span></span>
         <span></span>
         {/* <GiHamburgerMenu/> */}
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <MenuLink to="/about">About</MenuLink>
-        <MenuLink to="/github">Github</MenuLink>
-        <MenuLink to="/">Logout</MenuLink>
+        <MenuLink to="/about" onClick={()=> setOpen(!isOpen)}>About</MenuLink>
+        <MenuLink to="/github" onClick={()=> setOpen(!isOpen)}>Github</MenuLink>
+        <MenuLink to="/" onClick={()=> {sessionStorage.clear(); setOpen(!isOpen)}} >Logout</MenuLink>
       </Menu>
     </Nav>
   )

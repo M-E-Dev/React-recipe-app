@@ -9,6 +9,7 @@ const Form = ({ setQuery, getData, mealTypes, setMeal }) => {
   return (
     <FormContainer onSubmit={handleSubmit} >
       <FoodInput type="text" placeholder='Search' onChange={(e) => setQuery(e.target.value)  } />
+      {/* Buttona onclick vermeye gerek var mı? zaten submit ettiğinde handlesubmit çalışıyor? */}
       <Button type='submit'>Search</Button>
       <Select name='mealTypes' id='mealTypes' onChange={(e) => setMeal(e.target.value)} >
         { mealTypes.map((item, index) => 
