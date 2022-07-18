@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Header from "../../components/header/Header";
-import { MainContainer, HomeImg, ImgDiv, RecipeCard } from "./style";
+import { MainContainer, HomeImg, ImgDiv } from "./style";
 import homeSvg from "../../assets/home.svg";
+import RecipeCardComp from "./RecipeCardComp";
 
 
 const APP_ID = "4e9f05eb";
@@ -38,9 +39,9 @@ const Home = () => {
       />
       {food ? (
         <MainContainer>
-          <RecipeCard>
-            <h1>veri var</h1>
-          </RecipeCard>
+          {food.map((recipe, index) => (
+            <RecipeCardComp key={index} recipe={recipe.recipe} />
+          ))}
         </MainContainer>
       ) : (
         <ImgDiv>
