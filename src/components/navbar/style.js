@@ -7,8 +7,7 @@ export const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background: #e1f1dd;
-  border-radius: 0 0 10px 10px;
+  background: rgb(175, 65, 84);
   height: 75px;
   font-size: 2rem;
 `;
@@ -19,7 +18,7 @@ export const Hamburger = styled.div`
   span {
     height: 4px;
     width: 25px;
-    background: #00adb5;
+    background-color: rgba(255, 194, 97, 1);
     margin-bottom: 4px;
     border-radius: 5px;
   }
@@ -38,13 +37,13 @@ export const MenuLink = styled(Link)`
   font-family: "Girassol", sans-serif;
 
   &:hover {
-    color: #00adb5;
+    color: rgba(255, 194, 97, 1);
     font-weight: bold;
   }
 
   @media (max-width: 768px) {
-    background: rgba(205, 209, 228, 0.5);
-    border: 1px solid #00adb5;
+    background: rgb(175, 65, 84);
+    border: 1px solid;
     border-radius: 10px;
     width: 100%;
   }
@@ -77,6 +76,6 @@ export const Logo = styled(Link)`
     font-family: "Girassol", sans-serif;
     font-weight: 400;
     font-size: 2rem;
-    color: #00adb5;
+    color: rgba(255, 194, 97, 1);
   }
 `;

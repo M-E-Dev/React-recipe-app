@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Header from "../../components/header/Header";
 import { MainContainer, HomeImg, ImgDiv } from "./style";
-import homeSvg from "../../assets/home.svg";
+import homeSvg from "../../assets/meal.png";
 import RecipeCardComp from "./RecipeCardComp";
 
 

@@ -5,7 +5,7 @@ export const HeaderContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: pink;
+  background: rgba(255, 201, 117, 1);
 `;
 
 export const MainHeader = styled.h2`
@@ -21,6 +21,7 @@ export const FormContainer = styled.form`
   border: 2px solid white;
   border-radius: 3px;
   margin: 20px;
+  background-color: rgba(255, 201, 117, 1);
 `;
 
 export const FoodInput = styled.input`
@@ -35,7 +36,7 @@ export const FoodInput = styled.input`
 `;
 
 export const Button = styled.button`
-  background-color: #e1f1dd;
+  background-color: rgb(175, 65, 84);
   padding: 5px;
   outline: none;
   height: 3rem;
@@ -46,7 +47,7 @@ export const Button = styled.button`
   font-size: 2rem;
 
   &:hover {
-    background-color: #00adb5;
+    background-color: rgba(175, 65, 84, 0.5);
     transition: all 0.3s ease-in;
     border: 1px solid white;
   }

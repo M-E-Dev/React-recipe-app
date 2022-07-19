@@ -5,7 +5,7 @@ export const DetailContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  background: #00adb5;
+  background: rgba(255, 201, 117, 1);
   min-height: calc(100vh - 75px);
   /* height: fit-content; */
   padding: 5px;
@@ -18,9 +18,9 @@ export const DetailPart = styled.div`
   flex-wrap: wrap;
   align-items: center;
   margin: 1rem;
-  border: 1px solid white;
+  border: 1px solid rgb(175, 65, 84);
   border-radius: 5px;
-  background-color: #e1f1dd;
+  background-color: rgba(175, 65, 84, 0.7);
   /* height: calc(100vh - 300px); */
 
   @media (max-width: 1250px) {
@@ -31,7 +31,6 @@ export const DetailPart = styled.div`
 `;
 
 export const ImgContainer = styled.div`
-  border: 1px solid #00adb5;
   padding: 10px;
   border-radius: 3px;
   margin: 2rem;
@@ -55,7 +54,7 @@ export const HeaderContainer = styled.div`
   }
 
   img {
-    width: 200px;
+    width: 150px;
   }
 `;
 

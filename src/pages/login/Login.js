@@ -1,5 +1,5 @@
 import React from "react";
-import meal from "../../assets/meal.svg";
+import meal from "../../assets/meal.png";
 import {
   LoginContainer,
   FormContainer,

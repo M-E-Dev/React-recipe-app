@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo to="/home" >
-        <i>{"<Recipe>"}</i>
-        <span>app</span>
+        <i>{"Recipe "}</i>
+        <span>finder</span>
       </Logo>
       <Hamburger onClick={() => setOpen(!isOpen)} >
         <span></span>
@@ -21,7 +21,6 @@ const Navbar = () => {
       </Hamburger>
       <Menu isOpen={isOpen}>
         <MenuLink to="/about" onClick={()=> setOpen(!isOpen)}>About</MenuLink>
-        <MenuLink to="/github" onClick={()=> setOpen(!isOpen)}>Github</MenuLink>
         <MenuLink to="/" onClick={()=> {sessionStorage.clear(); setOpen(!isOpen)}} >Logout</MenuLink>
       </Menu>
     </Nav>

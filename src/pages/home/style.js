@@ -12,7 +12,7 @@ export const MainContainer = styled.div`
 
 export const RecipeCard = styled.div`
   height: 300px;
-  background: #e1f1dd;
+  background: rgba(255, 201, 117, 1);
   padding: 5px;
   border-radius: 3px;
   width: 300px;
@@ -35,7 +35,7 @@ export const RecipeImage = styled.img`
 `;
 
 export const Button = styled.button`
-  background-color: #00adb5;
+  background-color: rgb(175, 65, 84);
   padding: 5px;
   outline: none;
   height: 2rem;
@@ -54,6 +54,7 @@ export const ImgDiv = styled.div`
   display: flex;
   justify-content: center;
   margin: 50px;
+  background-color: rgb(175, 65, 84);
 `;
 
 export const HomeImg = styled.img`

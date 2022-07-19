@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import dietSvg from "../../assets/diet.svg";
+import dietSvg from "../../assets/diet.png";
 import {
   DetailContainer,
   HeaderContainer,
