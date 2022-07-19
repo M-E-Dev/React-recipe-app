@@ -20,7 +20,7 @@ export const DetailPart = styled.div`
   margin: 1rem;
   border: 1px solid rgb(175, 65, 84);
   border-radius: 5px;
-  background-color: rgba(175, 65, 84, 0.7);
+  background-color: rgba(175, 65, 84, 1);
   /* height: calc(100vh - 300px); */
 
   @media (max-width: 1250px) {

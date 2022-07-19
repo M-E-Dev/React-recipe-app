@@ -5,7 +5,7 @@ import {
   InfoContainer,
   StyledImage,
 } from "./AboutStyle";
-import codingSvg from "../../assets/coding.svg";
+import codingSvg from "../../assets/coding.png";
 
 const About = () => {
   return (
@@ -13,19 +13,18 @@ const About = () => {
       <StyledImage src={codingSvg} alt="coding" />
       <HeaderContainer>
         <h1>
-          About Software Developer <span>Ed Ben</span>
+          Jr Frontend Developer <span>Muhammed Eroğlu</span>
         </h1>
       </HeaderContainer>
       <InfoContainer>
-        <h1>I'm Ed.</h1>
-        <h2>I’m currently learning Full-Stack Development Languages.</h2>
+        <h2>I’m improving myself about frontend web development</h2>
         <h2>
-          I've already known JS, ReactJS, ReactNative, NodeJS, MongoDB,SQL,
-          Python, AWS Services.
+          I've learned Html, Css, JS, ReactJS and everyday trying to get better.
+          
         </h2>
         <h2>
-          <a href="mailto:edwardbenedict92@gmail.com">Send email</a> :
-          edwardbenedict92@gmail.com
+          <a href="mailto:m.eroglu.dev@gmail.com">Send email</a> :
+          m.eroglu.dev@gmail.com
         </h2>
       </InfoContainer>
     </AboutContainer>
