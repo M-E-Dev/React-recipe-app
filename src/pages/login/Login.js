@@ -17,7 +17,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     sessionStorage.setItem("user", JSON.stringify(user))
-    window.location.href="/home";
+    window.location.href="https://m-e-dev.github.io/home";
   }
 
   return (
