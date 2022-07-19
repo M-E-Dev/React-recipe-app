@@ -17,7 +17,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     sessionStorage.setItem("user", JSON.stringify(user))
-    window.location.href="/React-recipe-app/home";
+    window.location.href="/home";
   }
 
   return (
