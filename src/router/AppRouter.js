@@ -13,17 +13,17 @@ function AppRouter() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/React-recipe-app/" element={<Login />} />
 
-        <Route path="/home" element={<PrivateRouter />}>
+        <Route path="/React-recipe-app/home" element={<PrivateRouter />}>
           <Route path="" element={<Home />} />
         </Route>
 
-        <Route path="/about" element={<PrivateRouter />}>
+        <Route path="/React-recipe-app/about" element={<PrivateRouter />}>
           <Route path="" element={<About />} />
         </Route>
 
-        <Route path="/details" element={<Details />} />
+        <Route path="/React-recipe-app/details" element={<Details />} />
       </Routes>
 
     </BrowserRouter>
